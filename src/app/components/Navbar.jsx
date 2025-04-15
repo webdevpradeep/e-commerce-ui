@@ -9,6 +9,8 @@ const Navbar = () => {
       <nav className="flex items-center gap-4">
         <Link href="/">Home</Link>
         <Link href="/shop">Shop</Link>
+        <Link href="/auth/login">Login</Link>
+        <Link href="/auth/signup">Sign up</Link>
       </nav>
     </header>
   );
